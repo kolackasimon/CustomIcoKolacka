@@ -16,5 +16,18 @@ namespace CustomIcoKolacka
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Blue;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Text = "NEEEEEE";
+            int x = 10;
+            while(x!=0)
+            { MessageBox.Show("CAAAAU", "HELO", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
+        }
     }
 }
